@@ -1,13 +1,13 @@
 import React from 'react';
 
-import AboutHero from '../Components/AboutHero';
+import AboutHero from '../components/AboutHero';
 import Partners from '../Components/Partners';
-import AboutUs from '../Components/AboutUs';
-import CorePrinciples from '../Components/CorePrinciples';
-import Stats from '../Components/Stats';
+import About from '../Components/About';
+import CorePrinciples from '../components/CorePrinciples';
+import Stats from '../components/Stats';
 import Services from '../Components/Services';
-import Testimonials from '../Components/Testimonial';
-import Team from '../Components/Team';
+import Testimonials from '../components/Testimonial';
+import Team from '../components/Team';
 
 
 const AboutUsPage = () => {
@@ -16,7 +16,7 @@ const AboutUsPage = () => {
      
       <AboutHero />
       <Partners />
-      <AboutUs />
+      <About />
       <CorePrinciples />
       <Stats />
       <Services />
